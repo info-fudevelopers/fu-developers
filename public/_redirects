@@ -1,0 +1,7 @@
+# Intentionally NO catch-all "/*  /index.html  200" rule.
+#
+# Every real route is prerendered at build time (dist/<route>/index.html), which Netlify serves
+# directly. Unknown URLs therefore fall through to dist/404.html, which Netlify returns with a
+# real HTTP 404 status (a catch-all 200 rewrite would turn every bad URL into a soft 404 that
+# serves the homepage). Client-side navigation is unaffected: the router handles in-app links
+# in the browser, and the 404 page hydrates and renders the same NotFound UI.

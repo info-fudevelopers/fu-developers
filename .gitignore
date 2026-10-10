@@ -1,0 +1,27 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.ssr-build/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local-only files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+.cache/
+.vite/
+.netlify/
+.vercel/
