@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-export const PRODUCTION_ORIGIN = 'https://fudevelopers.com';
+export const PRODUCTION_ORIGIN = 'https://fu-developers.netlify.app';
 export const SITE_NAME = 'FU DEVELOPERS';
 const SOCIAL_IMAGE = `${PRODUCTION_ORIGIN}/og-image.jpg`;
 const SOCIAL_IMAGE_WIDTH = '1200';

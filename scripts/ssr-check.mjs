@@ -4,7 +4,7 @@
 import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 
-const ORIGIN = 'https://fudevelopers.com';
+const ORIGIN = 'https://fu-developers.netlify.app';
 const OG_IMAGE = `${ORIGIN}/og-image.jpg`;
 const DIST = resolve('dist');
 const SUFFIX = ' | FU DEVELOPERS';

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fudevelopers.com/sitemap.xml
+Sitemap: https://fu-developers.netlify.app/sitemap.xml
